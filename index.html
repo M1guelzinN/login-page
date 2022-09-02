@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form.css">
+  <title>Login page</title>
+</head>
+<body>
+  <div class="bg"></div>
+  <main>
+    <div id="bgMove"></div>
+    <section id="login">
+
+      <div class="titulo">
+        <h2>Login</h2>
+        <p>Seja muito bem-vindo novamente! Por favor faça o login para entrar em sua conta.</p>
+      </div>
+
+      <form action="">
+        <label for="emailLogin">Email</label>
+        <input type="email" id="emailLogin">
+
+        <label for="passwordLogin">Senha</label>
+        <input type="password" id="passwordLogin" >
+        <a href="">
+          <p id="esqueci">esqueceu a senha?</p>
+        </a>
+
+        <input type="checkbox" name="" class="lembre-me">
+        <label for="lembre-me">Lembre-me</label>
+
+        <input type="submit" value="entrar" class="enviar">
+
+        <p id="signin">Não possui uma conta conosco ainda?<a href="#">criar conta</a></p>
+      </form>
+    </section>
+
+    <section id="createLogin">
+      <div class="titulo">
+        <h2>Criar conta</h2>
+        <p>Seja muito bem-vindo! Por favor faça o cadastro para criar sua conta.</p>
+      </div>
+
+      <form action="">
+        <label for="username">Nome</label>
+        <input type="text" id="username" placeholder="username">
+
+        <label for="emailLogin">Email</label>
+        <input type="email" id="emailLogin" placeholder="ex: user@email.com">
+
+        <label for="passwordLogin">Senha</label>
+        <input type="password" id="passwordLogin" placeholder="minímo de 8 caracteres">
+
+        <input type="checkbox" name="" class="lembre-me">
+        <label for="lembre-me">Lembre-me</label>
+
+        <input type="submit" value="entrar" class="enviar">
+
+        <p id="signup">Já possui uma conta? <a href="#">entrar</a></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="animation.js"></script>
+
+</body>
+</html>
